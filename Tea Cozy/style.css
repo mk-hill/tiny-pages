@@ -1,0 +1,138 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.nav-bar {
+  height: 69px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+}
+
+.nav-logo {
+  height: 50px;
+  margin: 10px;
+  float: left;
+}
+
+.nav-list {
+  display: inline-block;
+  float: right;
+  list-style-type: none;
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: white;
+}
+
+.section-area {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  width: 1200px;
+  margin-bottom: 10px;
+}
+
+#mission {
+  margin-top: 62px;
+  height: 700px;
+  display: flex;
+  background-image: url("./images/img-mission-background.jpg");
+  background-size: cover;
+  align-items: center;
+}
+
+.mission-text-bar {
+  width: 100%;
+  background-color: black;
+  height: auto;
+}
+
+.mission-text {
+  margin: 10px 5px;
+}
+
+#featured-tea {
+  width: 1000px;
+}
+
+.featured-tea-box-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured-tea-box {
+  display: inline-block;
+}
+
+.tea-image {
+  height: 200px;
+  width: 300px;
+  margin: 0;
+}
+
+.tea-type {
+  margin: 10px 5px 20px 5px;
+}
+
+#locations {
+  height: 500px;
+  background-image: url("./images/img-locations-background.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+#locations .section-title {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.location-box {
+  display: inline-block;
+  opacity: 1;
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 0px 20px;
+  text-align: center;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contact {
+  height: 200px;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
