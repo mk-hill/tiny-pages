@@ -1,0 +1,38 @@
+body {
+  font-family: Helvetica;
+}
+.main-title {
+  background-image: url(./Images/pattern.jpeg);
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+.section {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.subsection {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.price {
+  font-weight: bold;
+  color: blue;
+}
+
+#title-1 {
+  background-color: mediumspringgreen;
+}
+
+#title-2 {
+  background-color: lightcoral;
+}
+
+#title-3 {
+  background-color: skyblue;
+}
